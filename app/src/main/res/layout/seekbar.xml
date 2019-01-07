@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seekbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_non">
+
+
+    <LinearLayout
+        android:id="@+id/backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/backview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/thumb"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/thumb"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+</RelativeLayout>
